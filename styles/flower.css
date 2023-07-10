@@ -1,0 +1,148 @@
+/* common shared items */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-primary {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.btn-primary {
+    padding: 20px 43px;
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+}
+
+.section-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.spacial-text {
+    color: #E55473;
+}
+
+.section-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+
+
+}
+
+/* banner */
+.banner {
+    width: 1920px;
+    height: 850px;
+}
+
+.banner-img {
+    width: 635px;
+    height: 800px;
+    margin-top: 50px;
+}
+
+.heading {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 32px;
+    width: 708px;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(229, 84, 115, 0.10);
+    padding: 0 240px;
+
+}
+
+.banner-description {
+    margin-top: 32px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-right: 85px;
+    width: 634px;
+}
+
+.banner-left-side {
+    padding: 0px 200px 0px 0px;
+
+}
+
+/* hot-deal section */
+.hot-container {
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.hot-deal-container {
+    display: flex;
+    justify-content: space-around;
+    height: 620px;
+    margin: 128px 400px;
+    align-items: center;
+}
+
+.hot-deal-left {
+    text-align: center;
+    margin-right: 186px;
+}
+
+/* instagram container */
+/* .insta-container {
+    display: block;
+    margin: 0px auto;
+} */
+
+.insta-img {
+    display: flex;
+    width: 342px;
+    height: 396px;
+    gap: 24px;
+    margin: 48px 240px;
+}
+
+/* get the latest deal */
+.latest-deal {
+    width: 1440px;
+    height: 449px;
+    background-image: url('/images/Rectangle\ 9.png');
+    margin: auto;
+    margin-bottom: 128px;
+    margin-top: 128px;
+}
+
+.let-input {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+.let-header {
+    padding: 75px;
+    margin-bottom: 0px;
+}
+
+.let-input input {
+    width: 48%;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0px;
+    padding-left: 25px;
+
+}
