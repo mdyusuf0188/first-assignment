@@ -2,6 +2,7 @@
 * {
     margin: 0px;
 }
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -88,6 +89,39 @@ body {
 
 }
 
+/* featured section */
+.featured-section{
+    margin-top: 178px;
+}
+.featured {
+    display: flex;
+    margin-top: 48px;
+    gap: 25px;
+    padding: 0px 240px;
+    
+
+
+}
+.featured-flower {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    gap: 25px;
+}
+
+.featured-flower img {
+    width: 310px;
+    height: 428px;
+    padding: 110px 78px 0px 78px;
+    
+}
+.flower-name{
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 32px;
+}
+
 /* hot-deal section */
 .hot-container {
     background: rgba(229, 84, 115, 0.05);
@@ -118,7 +152,7 @@ body {
 .latest-deal {
     width: 1440px;
     height: 449px;
-    background-image: url('/images/Rectangle\ 9.png');
+    background-image: url('/images/Rectangle 9.png');
     margin: auto;
     margin-bottom: 128px;
     margin-top: 128px;
