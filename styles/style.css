@@ -40,8 +40,7 @@ body {
     font-weight: 400;
     line-height: 30px;
     margin-top: 24px;
-
-
+    margin-bottom: 24px;
 }
 
 /* banner */
@@ -64,16 +63,14 @@ body {
     margin-bottom: 32px;
     width: 708px;
 }
-
 .banner-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: rgba(229, 84, 115, 0.10);
-    padding: 0 240px;
+    padding: 0px 240px;
 
 }
-
 .banner-description {
     margin-top: 32px;
     color: rgba(39, 39, 39, 0.60);
@@ -82,6 +79,7 @@ body {
     line-height: 30px;
     padding-right: 85px;
     width: 634px;
+    margin-bottom: 24px;
 }
 
 .banner-left-side {
@@ -97,10 +95,7 @@ body {
     display: flex;
     margin-top: 48px;
     gap: 25px;
-    padding: 0px 240px;
-    
-
-
+    padding: 0px 135px;
 }
 .featured-flower {
     width: 464px;
@@ -131,7 +126,7 @@ body {
     display: flex;
     justify-content: space-around;
     height: 620px;
-    margin: 128px 400px;
+    margin: 128px 400px 100px 400px;
     align-items: center;
 }
 
@@ -147,6 +142,32 @@ body {
     gap: 24px;
     margin: 48px 240px;
 }
+
+ /* video section */
+ .video-container{
+    display: flex;
+    align-items: center;
+    background-color: #948d8f;
+    margin-top: 30px;
+    margin-bottom: 80px;
+ }
+ .items-1{
+    padding: 40px 40px;
+ }
+ .items-2, .description {
+    color:whitesmoke;
+    text-align:left;
+    font-size: 18px;
+    padding-right: 100px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+ }
+ .items-2{
+    padding-left: 95px;
+ }
+ .Prices, .title{
+    color: #E55473;
+ }
 
 /* get the latest deal */
 .latest-deal {
